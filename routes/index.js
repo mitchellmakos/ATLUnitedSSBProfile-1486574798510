@@ -8,8 +8,8 @@ router.get('/', function(req, res, next) {
 });
 
 // API
-router.get('/db/getSSB_Profile', function(req, res){
-    dbOperations.getSSB_Profile(req, res);
+router.get('/api/register/:email', function(req, res){
+    dbOperations.register(req, res);
 });
 
 module.exports = router;

@@ -3,7 +3,7 @@ var request = require('request');
 
 
 module.exports = {
-    getSSB_Profile: function(req, res) {
+    register: function(req, res) {
         var pg = require('pg');
         var conString = process.env.ELEPHANTSQL_URL || "postgres://admin:UAPPAMUGEEZRACPL@sl-us-dal-9-portal.3.dblayer.com:19416/SSB_Data";
         var client = new pg.Client(conString);
