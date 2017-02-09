@@ -3,6 +3,6 @@ applications:
   memory: 256M
   instances: 1
   domain: mybluemix.net
-  name: ATLUnitedSSBProfile
-  host: ATLUnitedSSBProfile
+  name: ATLUnitedSSBProfile-1486574798510
+  host: ATLUnitedSSBProfile-1486574798510
   disk_quota: 1024M

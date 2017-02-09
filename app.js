@@ -7,7 +7,7 @@ var bodyParser = require('body-parser');
 var http = require('http');
 var request = require('request');
 var pg = require('pg');
-var conString = process.env.ELEPHANTSQL_URL || "postgres://mitchellMakos:5492@localhost:5432/mockssb";
+var conString = process.env.ELEPHANTSQL_URL || "postgres://admin:UAPPAMUGEEZRACPL@sl-us-dal-9-portal.3.dblayer.com:19416/SSB_Data";
 
 var index = require('./routes/index');
 //var register = require('./routes/register');
